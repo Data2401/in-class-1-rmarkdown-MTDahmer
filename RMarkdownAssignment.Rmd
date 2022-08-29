@@ -1,34 +1,57 @@
 ---
-  title: 'RMarkdown:  In Class Assignment'
-author: "YOUR NAME HERE"
+title: 'RMarkdown:  In Class Assignment'
+author: "Mitchell Dahmer"
 date: "Data 2401"
 output: html_document
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE) ## this line makes all the code show! 
   ## and these lines are comments - anything behind a '#' doesn't run!
 ```
 
-
-Reminder: There is a "Markdown Help" page available in RStudio. 
-
+Reminder: There is a "Markdown Help" page available in RStudio.
 
 ## In-class Activity, Markdown
 
-Below the "Your work here" section header, do the following 3 things. To turn this in, knit the RMarkdown file, and zip and submit the html.  
+Below the "Your work here" section header, do the following 3 things. To turn this in, knit the RMarkdown file, and zip and submit the html.
 
-1. Make a subsection called "Wise words". Put your favorite quote in a block quote. Add a functioning link to a website that provides more information about that quote.
+1.  Make a subsection called "Wise words". Put your favorite quote in a block quote. Add a functioning link to a website that provides more information about that quote.
 
-2. Make a subsection called "My semester". Make a three column table of the current courses you are taking, with separate columns for course number (put those in __bold__), course title (put those in _italics_), and instructor name.
+##Wise Words
+```
+> any man's death diminishes me, because I am involved in mankind. 
+[John Doone's No Man is an Island] (https://web.cs.dal.ca/~johnston/poetry/island.html)
+```
 
-3. Lastly, make subsection called "I recommend", and add some information about your favorite author or musician.
+2.  Make a subsection called "My semester". Make a three column table of the current courses you are taking, with separate columns for course number (put those in **bold**), course title (put those in *italics*), and instructor name.
 
-+ A _subsubheading_ with the name of the artist or author;    
-+ An example of their writing or lyrics (formatted in a *plain code block*);   
-+ A _list_ of things they have written or performed (remember to use the formatting markup for a list!).     
+## My Semester
+|**Course Number**| *Course Title* |Instructor Name|
+|:--------------|:---------------|:--------------|
+|**CS3304**|*Data Information and Structures*|Cyril Harris|
+|**DS2401**|*Data Science*|Katherine Shoemaker|
+
+3.  Lastly, make subsection called "I recommend", and add some information about your favorite author or musician.
+
+-   A *subsubheading* with the name of the artist or author;\
+-   An example of their writing or lyrics (formatted in a *plain code block*);\
+-   A *list* of things they have written or performed (remember to use the formatting markup for a list!).
+
+## I Reccomend
+## The Mountain Goats
+```
+We're gonna comandeer the local airwaves
+To tell the neighbors what's been going on
+And they will shake their heads and wag their bony fingers
+In all the wrong directions and by daybreak we'll be gone
+-Up to the Wolves
+```
+-Beat the Champ
+
+-Goths
+
+-Getting into Knives
 
 
 Note that you can click "Knit" as you go along to see what the final results are going to look like. **Once you're done, commit the changes and push the repo back to your assignment on GitHub!**
- 
